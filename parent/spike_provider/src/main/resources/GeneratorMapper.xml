@@ -34,13 +34,13 @@
         <!-- xml文件中&是非法的，应该使用转义字符`&amp;`，将所有&都替换为`&amp;`-->
         <!-- 配置数据库连接信息 -->
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://127.0.0.1:3306/student_test?characterEncoding=utf-8&amp;useSSL=false"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/miaosha?characterEncoding=utf-8&amp;useSSL=false"
                         userId="root"
                         password="1201hwr5+0">
         </jdbcConnection>
 
         <!-- 生成model类，targetPackage指定model类的包名， targetProject指定生成的model放在eclipse的哪个工程下面-->
-        <javaModelGenerator targetPackage="com.example.model" targetProject="E:\Springboot_test\dubbo\_020-springboot-parent\_020-springboot-interface\src\main\java">
+        <javaModelGenerator targetPackage="com.example.model" targetProject="E:\Springboot_test\spike\parent\spike_interface\src\main\java">
             <property name="enableSubPackages" value="false" />
             <property name="trimStrings" value="false" />
         </javaModelGenerator>
@@ -56,8 +56,8 @@
         </javaClientGenerator>
 
         <!-- 数据库表名及对应的Java模型类名 -->
-        <table tableName="student_info"
-               domainObjectName="Student"
+        <table tableName="admin_info"
+               domainObjectName="Admin"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
