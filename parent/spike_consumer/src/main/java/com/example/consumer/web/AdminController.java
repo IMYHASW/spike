@@ -8,7 +8,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller(value = "/admin")
+//@Controller(value = "/admin")
+@Controller
 public class AdminController {
 
 
@@ -16,22 +17,26 @@ public class AdminController {
     private AdminService adminService;
 
 
-    @RequestMapping(value = "/login/{username}/{password}")
+    @RequestMapping(value = "/login")
     public String adminLogin(Model model,
                              @PathVariable("username") String username,
                              @PathVariable("password") String password){
 
-        boolean pass = adminService.adminLogin(username, password);
-        if (pass){
-
-            Admin admin = new Admin();
-            admin.setName(username);
-            admin.setPwd(password);
+        Admin admin = adminService.adminLogin(username, password);
+        if (admin.getName().equals(username) && admin.getPwd().equals(password)){
             model.addAttribute("admin",admin);
-            return "items";
+            return "adminIndex";
+        }else {
+            return "账号或者秘密错误";
         }
 
-        return "adminLogin";
+
+    }
+    @RequestMapping(value = "/test")
+    public String test(){
+        System.out.println("sss");
+        return "sss";
+
     }
 
 }

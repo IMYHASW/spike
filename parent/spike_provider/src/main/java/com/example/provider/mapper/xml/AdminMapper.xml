@@ -68,7 +68,6 @@
       pwd = #{pwd,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
-
   <select id="selectByUsername">
     select
     <include refid="Base_Column_List" />
@@ -76,6 +75,4 @@
     where name = #{name,jdbcType=VARCHAR}
 
   </select>
-
-
 </mapper>
