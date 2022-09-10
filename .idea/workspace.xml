@@ -4,273 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1753a8c-aad7-47b9-bf82-81308f9b0c33" name="Changes" comment="andminlogin1">
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/css/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/images/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/images/icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/images/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/images/thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/images/verify.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/laydate/skins/dahong/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/laydate/skins/dahong/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/laydate/skins/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/laydate/skins/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/laydate/skins/molv/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/laydate/skins/molv/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/need/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/skins/dahong/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/skins/dahong/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/skins/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/skins/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/skins/molv/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/skins/molv/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/asp.net/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/asp.net/bin/LitJSON.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/asp.net/demo.aspx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/asp.net/file_manager_json.ashx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/asp.net/upload_json.ashx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/asp/JSON_2.0.4.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/asp/UpLoad_Class.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/asp/demo.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/asp/file_manager_json.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/asp/upload_json.asp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/jsp/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/jsp/demo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/jsp/file_manager_json.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/jsp/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/jsp/lib/commons-io-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/jsp/lib/json_simple-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/jsp/upload_json.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/kindeditor-4.1.11-zh-CN.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/kindeditor-all-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/kindeditor-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/lang/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/lang/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/lang/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/php/JSON.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/php/demo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/php/file_manager_json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/php/upload_json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/anchor/anchor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/autoheight/autoheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/baidumap/baidumap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/baidumap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/baidumap/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/clearhtml/clearhtml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/code/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/code/prettify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/code/prettify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/emoticons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/100.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/101.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/102.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/103.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/104.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/105.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/106.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/107.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/108.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/109.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/110.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/111.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/112.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/113.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/114.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/115.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/116.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/117.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/118.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/119.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/120.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/121.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/122.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/123.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/124.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/125.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/126.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/127.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/128.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/129.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/130.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/131.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/132.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/133.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/134.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/72.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/73.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/74.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/75.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/76.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/77.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/78.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/79.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/80.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/81.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/82.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/83.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/84.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/85.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/86.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/87.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/88.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/89.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/90.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/91.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/92.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/93.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/94.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/95.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/96.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/97.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/98.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/99.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/emoticons/images/static.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/filemanager/filemanager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/filemanager/images/file-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/filemanager/images/file-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/filemanager/images/folder-16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/filemanager/images/folder-64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/filemanager/images/go-up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/fixtoolbar/fixtoolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/flash/flash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/image/images/align_left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/image/images/align_right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/image/images/align_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/image/images/refresh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/insertfile/insertfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/lineheight/lineheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/link/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/map/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/media/media.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/multiimage/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/multiimage/images/select-files-en.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/multiimage/images/select-files-zh-CN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/multiimage/images/swfupload.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/multiimage/multiimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/pagebreak/pagebreak.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/plainpaste/plainpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/preview/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/quickformat/quickformat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/table/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/template/html/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/template/html/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/template/html/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/plugins/wordpaste/wordpaste.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/themes/common/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/themes/common/blank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/themes/common/flash.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/themes/common/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/themes/common/media.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/themes/common/rm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/themes/default/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/themes/default/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/themes/default/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/themes/qq/editor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/themes/qq/qq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/kingediter/themes/simple/simple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/goods_add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/goods_manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/main.html" afterDir="false" />
+    <list default="true" id="a1753a8c-aad7-47b9-bf82-81308f9b0c33" name="Changes" comment="管理员登录+商品管理2">
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/java/com/example/consumer/web/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/java/com/example/consumer/web/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/adminIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/adminIndex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/adminLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/adminLogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/images/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/images/background2.png" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/images/background2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/images/login_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/images/login_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/images/login_logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/images/login_logo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/sss.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_interface/src/main/java/com/example/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_interface/src/main/java/com/example/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/mapper/xml/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/mapper/xml/AdminMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/service/impl/AdminServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,6 +35,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -322,29 +59,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "E:/Springboot_test/spike/parent/spike_consumer/src/main/resources/templates",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "project.scopes",
-    "spring.configuration.checksum": "ca2c3daff961c8cee8d5378a3ff90ab7"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Springboot_test/spike/parent/spike_consumer/src/main/resources/templates&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ca2c3daff961c8cee8d5378a3ff90ab7&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\templates" />
@@ -450,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662714300421</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="管理员登录+商品管理2">
+      <created>1662806170456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662806170456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +237,8 @@
     <MESSAGE value="test1" />
     <MESSAGE value="test2" />
     <MESSAGE value="andminlogin1" />
-    <option name="LAST_COMMIT_MESSAGE" value="andminlogin1" />
+    <MESSAGE value="管理员登录+商品管理2" />
+    <option name="LAST_COMMIT_MESSAGE" value="管理员登录+商品管理2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
