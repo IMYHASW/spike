@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1753a8c-aad7-47b9-bf82-81308f9b0c33" name="Changes" comment="test1">
-      <change afterPath="$PROJECT_DIR$/parent/spike_provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/SpikeProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/resources/GeneratorMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a1753a8c-aad7-47b9-bf82-81308f9b0c33" name="Changes" comment="管理员登录+商品管理2">
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_interface/src/main/java/com/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_interface/src/main/java/com/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Class" />
         <option value="HTML File" />
       </list>
     </option>
@@ -37,7 +29,13 @@
         <option name="title" value="All" />
       </GitPushTagMode>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -46,7 +44,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\maven-repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.8.6" />
         <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -57,30 +58,53 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "E:/商城秒杀",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "ca2c3daff961c8cee8d5378a3ff90ab7"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Springboot_test/spike/parent/spike_consumer/src/main/resources/templates&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ca2c3daff961c8cee8d5378a3ff90ab7&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Springboot_test\spike\parent\spike_provider\src\main\resources" />
+      <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\templates" />
+      <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\static" />
+      <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\static\" />
+      <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\static\images" />
+      <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\static\css" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -89,10 +113,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpikeProviderApplication">
+  <component name="RunManager" selected="Spring Boot.SpikeConsumerApplication">
     <configuration name="SpikeConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
       <module name="spike_consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumer.SpikeConsumerApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,6 +131,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpikeConsumerApplication" />
+      <item itemvalue="Spring Boot.SpikeProviderApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -120,7 +151,13 @@
       <workItem from="1662536794349" duration="1226000" />
       <workItem from="1662538108646" duration="1120000" />
       <workItem from="1662543637415" duration="497000" />
-      <workItem from="1662606463694" duration="101000" />
+      <workItem from="1662606463694" duration="4337000" />
+      <workItem from="1662627137433" duration="13294000" />
+      <workItem from="1662690555206" duration="10274000" />
+      <workItem from="1662710924156" duration="6307000" />
+      <workItem from="1662717981199" duration="8263000" />
+      <workItem from="1662733708807" duration="6019000" />
+      <workItem from="1662791976989" duration="8474000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1662543830879</created>
@@ -129,7 +166,35 @@
       <option name="project" value="LOCAL" />
       <updated>1662543830879</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test1">
+      <created>1662606599447</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662606599447</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test2">
+      <created>1662632733357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662632733373</updated>
+    </task>
+    <task id="LOCAL-00004" summary="andminlogin1">
+      <created>1662714300421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662714300421</updated>
+    </task>
+    <task id="LOCAL-00005" summary="管理员登录+商品管理2">
+      <created>1662806170456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662806170456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +216,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="wujialing" />
                       </list>
                     </value>
                   </entry>
@@ -170,7 +235,10 @@
       <path value="$PROJECT_DIR$/parent/spike_provider" />
     </ignored-roots>
     <MESSAGE value="test1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+    <MESSAGE value="test2" />
+    <MESSAGE value="andminlogin1" />
+    <MESSAGE value="管理员登录+商品管理2" />
+    <option name="LAST_COMMIT_MESSAGE" value="管理员登录+商品管理2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
