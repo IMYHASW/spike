@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../static/css/mian.css">
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js">    </script>
+</head>
+<body>
+<!-- 设置广告栏 -->
+<div class="banner">
+    <img src="../static/image/welcome.png" class="banner_img">
+</div>
+
+<div class="center_con clearfix">
+    <div class="main_menu fl"><img src="./images/goods_detail.jpg"></div>
+    <div class="goods_detail_list fr" th:each="detail,detailStat:${detail}">
+        <h3><span th:text="${detail.goodsName}"></span></h3>
+        <p>
+            <span th:text="${detail.goodsTitle}"></span>
+            <span th:text="${detail.goodsDetail}"></span>
+        </p>
+        <div class="prize_bar">
+            <div class="show_prize fl">￥<em>16.80</em></div>
+            <div class="show_unit fl">单位：500g</div>
+        </div>
+        <div class="goods_num clearfix">
+            <div class="num_name fl">数量：</div>
+            <div class="num_add fl">
+                <input type="text" class="num_show fl" value="1">
+                <a href="javascript:;" class="add fr">+</a>
+                <a href="javascript:;" class="minus fr">-</a>
+            </div>
+        </div>
+        <div class="total">总价：<em>16.80元</em></div>
+        <div class="operate_btn">
+            <a href="" class="buy_btn">立即购买</a>
+            <a href="" class="add_cart">加入购物车</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

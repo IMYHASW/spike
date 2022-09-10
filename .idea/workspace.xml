@@ -4,31 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1753a8c-aad7-47b9-bf82-81308f9b0c33" name="Changes" comment="test1">
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/EOS.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/flp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/haier.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/huaw.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/iphone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/kws.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/md.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/mi8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/nk.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/nosy2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/note.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/oppo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/sony1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_interface/src/main/java/com/example/model/goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/mapper/goodsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/mapper/xml/goodsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="a1753a8c-aad7-47b9-bf82-81308f9b0c33" name="Changes" comment="shouye">
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/java/com/example/consumer/web/goodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/css/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/css/mian.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/MG_details_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/MG_details_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/MG_login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/hongmofangde wuhui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/index_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/login_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/richuyinxing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/songshulinzhicheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/welcome.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/wen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/wudaojiaoshi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/image/wumingnvlang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/js/homepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_interface/src/main/java/com/example/service/goodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/service/impl/goodsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/java/com/example/consumer/SpikeConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/java/com/example/consumer/SpikeConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/SpikeProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/SpikeProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_provider/src/main/resources/GeneratorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/resources/GeneratorMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent/spike_provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/EOS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/EOS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/flp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/flp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/haier.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/haier.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/huaw.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/huaw.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/iphone.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/iphone.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/kws.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/kws.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/md.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/md.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/mi8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/mi8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/nk.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/nk.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/nosy2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/sony2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/note.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/note.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/oppo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/oppo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/img/sony1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/static/img/sony1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/mapper/goodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/mapper/goodsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/mapper/xml/goodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/mapper/xml/goodsMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +55,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -84,37 +102,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "F:/spike/parent/spike_consumer/src/main/resources/templates/img",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "ca2c3daff961c8cee8d5378a3ff90ab7"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/PaintingMall&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ca2c3daff961c8cee8d5378a3ff90ab7&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\spike\parent\spike_consumer\src\main\resources\templates\image" />
+      <recent name="F:\spike\parent\spike_consumer\src\main\resources\templates" />
       <recent name="F:\spike\parent\spike_consumer\src\main\resources\templates\img" />
       <recent name="E:\Springboot_test\spike\parent\spike_provider\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\spike\parent\spike_consumer\src\main\resources\static.image\css" />
+      <recent name="F:\spike\parent\spike_consumer\src\main\resources\static.image\js" />
+      <recent name="F:\spike\parent\spike_consumer\src\main\resources\static.image\image" />
+      <recent name="F:\spike\parent\spike_consumer\src\main\resources\static.image" />
+      <recent name="F:\spike\parent\spike_consumer\src\main\resources\static.image\img" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -171,7 +199,9 @@
       <workItem from="1662704510148" duration="2332000" />
       <workItem from="1662707828901" duration="534000" />
       <workItem from="1662708482823" duration="792000" />
-      <workItem from="1662709322186" duration="4575000" />
+      <workItem from="1662709322186" duration="12611000" />
+      <workItem from="1662726464635" duration="12974000" />
+      <workItem from="1662793372132" duration="500000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1662543830879</created>
@@ -187,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662606599447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="shouye">
+      <created>1662714120235</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662714120235</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +246,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="shouye" />
                       </list>
                     </value>
                   </entry>
@@ -228,7 +265,8 @@
       <path value="$PROJECT_DIR$/parent/spike_provider" />
     </ignored-roots>
     <MESSAGE value="test1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test1" />
+    <MESSAGE value="shouye" />
+    <option name="LAST_COMMIT_MESSAGE" value="shouye" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

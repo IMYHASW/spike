@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/homepage.css">
+    <script type="text/javascript" src="/js/homepage.js"></script>
+    <title>首页</title>
+</head>
+<body>
+<!-- --------------------页眉板块-------------------- -->
+<div class="header">
+
+    <!-- 设置菜单 -->
+    <div class="menu" onmouseleave="show_menu1()">
+        <div class="menu_title" onclick="show_menu()">
+            <a href="#">内容分类</a></div>
+        <ul id="menu1" >
+            <li>热销手机</li>
+            <li>摄影摄像</li>
+            <li>生活电器</li>
+        </ul>
+    </div>
+    <!-- 设置用户登录 -->
+    <div class="auth">
+        <ul>
+            <li><a href="#">按照自己的喜好去做,得不到别人的赞赏也没关系</a></li>
+        </ul>
+    </div>
+</div>
+
+<!-- --------------------正文板块-------------------- -->
+<div class="content">
+    <!-- 设置广告栏 -->
+    <div class="banner">
+        <img src="/image/welcome.png" class="banner_img">
+    </div>
+    <div class="img_content">
+        <ul>
+            <div th:each="good,goodStat:${goods}">
+            <li>
+                <a  th:href="@{/detail(id=${good.id})}"><img th:src="@{${good.goodsImg}}" width="260" height="300"/></a>
+                <div class="info">
+                    <h3><span th:text="${good.goodsName}"></span></h3>
+                    <p>
+                        <span th:text="${good.goodsTitle}"></span>
+                        <span th:text="${good.goodsDetail}"></span>
+                    </p>
+                    <div class="img_btn">
+                        <!-- 价格，购买logo -->
+                        <div class="price"><span th:text="${good.goodsPrice}"></span></div>
+                        <!-- 购物车按钮 -->
+                        <div class="btn">
+                            <a href="#" class="cart">
+                                <img src="/image/cart.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            </div>
+        </ul>
+
+    </div>
+    <!-- 分页 -->
+    <div class="page_nav">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">上一页</a></li>
+            <li><span class="first_page">1</span></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">下一页</a></li>
+            <li><a href="#">尾页</a></li>
+        </ul>
+    </div>
+
+</div>
+<!-- --------------------页脚板块-------------------- -->
+<div class="footer">
+    <p class="p2">造烛求明，读书求理© 2019 POWERED BY <span>WanKcn</span></p>
+</div>
+
+
+</body>
+</html>

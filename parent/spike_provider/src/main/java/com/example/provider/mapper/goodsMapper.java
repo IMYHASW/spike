@@ -3,6 +3,8 @@ package com.example.provider.mapper;
 import com.example.model.goods;
 import org.apache.ibatis.annotations.Mapper;
 
+import java.util.List;
+
 @Mapper
 public interface goodsMapper {
     int deleteByPrimaryKey(Long id);
@@ -11,7 +13,9 @@ public interface goodsMapper {
 
     int insertSelective(goods row);
 
-    goods selectByPrimaryKey(Long id);
+    List<goods> selectByPrimaryKey(Long id);
+
+    List<goods> selectList();
 
     int updateByPrimaryKeySelective(goods row);
 
