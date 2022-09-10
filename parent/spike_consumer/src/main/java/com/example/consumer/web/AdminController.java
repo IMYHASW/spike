@@ -1,17 +1,15 @@
 package com.example.consumer.web;
 
 import com.example.model.Admin;
+
 import com.example.model.Goods;
 import com.example.service.AdminService;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
-//@Controller(value = "/admin")
 @Controller
 public class AdminController {
 
