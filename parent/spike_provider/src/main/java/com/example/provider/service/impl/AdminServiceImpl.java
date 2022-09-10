@@ -16,13 +16,11 @@ public class AdminServiceImpl implements AdminService {
     private AdminMapper adminMapper;
 
     @Override
-    public boolean adminLogin(String username, String password) {
+    public Admin adminLogin(String username) {
 
-        boolean result = false;
+
         Admin admin = adminMapper.selectByUsername(username);
-        if (admin.getPwd().equals(password)){
-            result = true;
-        }
-        return result;
+
+        return admin;
     }
 }
