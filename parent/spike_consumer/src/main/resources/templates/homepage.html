@@ -38,7 +38,7 @@
         <ul>
             <div th:each="good,goodStat:${goods}">
             <li>
-                <a  th:href="@{/detail(id=${good.id})}"><img th:src="@{${good.goodsImg}}" width="260" height="300"/></a>
+                <a  th:href="@{/domain(id=${good.id})}"><img th:src="@{${good.goodsImg}}" width="260" height="300"/></a>
                 <div class="info">
                     <h3><span th:text="${good.goodsName}"></span></h3>
                     <p>
