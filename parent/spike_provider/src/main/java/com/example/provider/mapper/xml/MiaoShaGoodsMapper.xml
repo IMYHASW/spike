@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.provider.mapper.MiaoShaGoodsMapper">
-  <resultMap id="BaseResultMap" type="com.example.model.MiaoShaGoods">
+  <resultMap id="BaseResultMap" type="com.example.model.MiaoshaGoods">
     <id column="id" jdbcType="BIGINT" property="id" />
     <result column="goods_id" jdbcType="BIGINT" property="goodsId" />
     <result column="miaosha_price" jdbcType="DECIMAL" property="miaoshaPrice" />
@@ -22,7 +22,7 @@
     delete from miaosha_goods
     where id = #{id,jdbcType=BIGINT}
   </delete>
-  <insert id="insert" parameterType="com.example.model.MiaoShaGoods">
+  <insert id="insert" parameterType="com.example.model.MiaoshaGoods">
     insert into miaosha_goods (id, goods_id, miaosha_price, 
       stock_count, start_date, end_date
       )
@@ -30,7 +30,7 @@
       #{stockCount,jdbcType=INTEGER}, #{startDate,jdbcType=TIMESTAMP}, #{endDate,jdbcType=TIMESTAMP}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.example.model.MiaoShaGoods">
+  <insert id="insertSelective" parameterType="com.example.model.MiaoshaGoods">
     insert into miaosha_goods
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -73,7 +73,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.example.model.MiaoShaGoods">
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.model.MiaoshaGoods">
     update miaosha_goods
     <set>
       <if test="goodsId != null">
@@ -94,7 +94,7 @@
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.example.model.MiaoShaGoods">
+  <update id="updateByPrimaryKey" parameterType="com.example.model.MiaoshaGoods">
     update miaosha_goods
     set goods_id = #{goodsId,jdbcType=BIGINT},
       miaosha_price = #{miaoshaPrice,jdbcType=DECIMAL},

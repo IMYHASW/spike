@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1753a8c-aad7-47b9-bf82-81308f9b0c33" name="Changes" comment="管理员登录+商品管理2">
-      <change afterPath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a30d3c2e-c341-4538-bf88-8b6494191e3c" name="Changes" comment="管理员登录+商品管理2">
+      <change beforePath="$PROJECT_DIR$/parent/spike_consumer/src/main/resources/templates/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_interface/src/main/java/com/example/model/MiaoShaGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_interface/src/main/java/com/example/model/MiaoshaGoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/mapper/MiaoShaGoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/mapper/MiaoShaGoodsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/mapper/xml/MiaoShaGoodsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/spike_provider/src/main/java/com/example/provider/mapper/xml/MiaoShaGoodsMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

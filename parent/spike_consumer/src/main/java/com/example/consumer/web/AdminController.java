@@ -46,7 +46,7 @@ public class AdminController {
             admin.setId(admin2.getId());
 
             //获取商品
-            Goods goods = new Goods();
+//            Goods goods = new Goods();
 
             return "adminIndex";
         }else {

@@ -1,19 +1,19 @@
 package com.example.provider.mapper;
 
-import com.example.model.MiaoShaGoods;
+import com.example.model.MiaoshaGoods;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface MiaoShaGoodsMapper {
     int deleteByPrimaryKey(Long id);
 
-    int insert(MiaoShaGoods row);
+    int insert(MiaoshaGoods row);
 
-    int insertSelective(MiaoShaGoods row);
+    int insertSelective(MiaoshaGoods row);
 
-    MiaoShaGoods selectByPrimaryKey(Long id);
+    MiaoshaGoods selectByPrimaryKey(Long id);
 
-    int updateByPrimaryKeySelective(MiaoShaGoods row);
+    int updateByPrimaryKeySelective(MiaoshaGoods row);
 
-    int updateByPrimaryKey(MiaoShaGoods row);
+    int updateByPrimaryKey(MiaoshaGoods row);
 }

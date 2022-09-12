@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
-public class MiaoShaGoods implements Serializable {
+public class MiaoshaGoods implements Serializable {
     private Long id;
 
     private Long goodsId;
