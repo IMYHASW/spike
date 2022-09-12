@@ -3,42 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="../static/css/mian.css">
-    <link rel="stylesheet" href="../static/css/reset1.css">
-    <script type="text/javascript" src="js/jquery-1.12.4.min.js">    </script>
+    <link rel="stylesheet" href="/css/mian.css">
+    <link rel="stylesheet" href="/css/reset1.css">
+    <script src="./jQuery/jquery-3.6.0.js"></script>
+
+
 </head>
 <body>
 <!-- 设置广告栏 -->
 <div class="banner">
-    <img src="../static/image/welcome.png" class="banner_img">
+    <img src="/image/welcome.png" class="banner_img"  >
 </div>
 
-<div class="center_con clearfix">
-    <div class="main_menu fl"><img src="./images/goods_detail.jpg"></div>
-    <div class="goods_detail_list fr" th:each="detail,detailStat:${detail}">
-        <h3><span th:text="${detail.goodsName}"></span></h3>
+<div class="center_con clearfix" th:each="detail,detailStat:${detail}" font-size="60px";>
+    <div class="main_menu fl"><img th:src="@{${detail.goodsImg}}" width="300" height="360"></div>
+    <div class="goods_detail_list fr" >
+        <h1><span th:text="${detail.goodsName}"></span></h1>
         <p>
             <span th:text="${detail.goodsTitle}"></span>
             <span th:text="${detail.goodsDetail}"></span>
         </p>
-        <div class="prize_bar">
-            <div class="show_prize fl">￥<em>16.80</em></div>
-            <div class="show_unit fl">单位：500g</div>
+        <div class="prize_bar" th:each="d,dStat:${domain}">
+            <div class="show_prize fl">￥<em><span th:text="${detail.goodsPrice}"></span></em></div>
+            <div class="show_unit fl" >折扣：<span th:text="${d.discount}"></span></div>
+
         </div>
+        <div th:each="d,dStat:${domain}">
+            <div class="show_unit fl" >所剩数量：<span th:text="${d.stockCount}"></span></div><br>
+            <div class="show_unit fl" >秒杀开始时间：<span th:text="${d.startDate}"></span></div><br>
+            <div class="show_unit fl" >秒杀结束时间：<span th:text="${d.endDate}"></span></div><br>
+        </div>
+
         <div class="goods_num clearfix">
-            <div class="num_name fl">数量：</div>
+            <div class="show_unit fl">数量：</div>
             <div class="num_add fl">
                 <input type="text" class="num_show fl" value="1">
                 <a href="javascript:;" class="add fr">+</a>
                 <a href="javascript:;" class="minus fr">-</a>
             </div>
+
         </div>
-        <div class="total">总价：<em>16.80元</em></div>
         <div class="operate_btn">
-            <a href="" class="buy_btn">立即购买</a>
-            <a href="" class="add_cart">加入购物车</a>
+            <a href="" class="buy_btn">立即抢购</a>
         </div>
     </div>
 </div>
+
+
 </body>
 </html>

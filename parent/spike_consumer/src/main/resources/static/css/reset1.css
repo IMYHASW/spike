@@ -16,11 +16,9 @@ em{
 
 img{
     border:0px;
+    Margin-left :50px;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-size:100%;
-}
 .clearfix:before,.clearfix:after{
     content:"";
     display:table;

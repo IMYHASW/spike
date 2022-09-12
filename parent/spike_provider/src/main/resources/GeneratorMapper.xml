@@ -6,7 +6,7 @@
 <generatorConfiguration>
 
     <!-- 指定连接数据库的JDBC驱动包所在位置，指定到你本机的完整路径，需确保本地路径下存在该jar -->
-    <classPathEntry location="D:\mysql-connector-java-8.0.23\mysql-connector-java-8.0.23.jar"/>
+    <classPathEntry location="F:\mysql\mysql-connector-java-8.0.23.jar"/>
 
     <!-- 配置table表信息内容体，targetRuntime指定采用MyBatis3的版本 -->
     <context id="tables" targetRuntime="MyBatis3">
@@ -36,11 +36,11 @@
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
                         connectionURL="jdbc:mysql://127.0.0.1:3306/miaosha?characterEncoding=utf-8&amp;useSSL=false"
                         userId="root"
-                        password="1201hwr5+0">
+                        password="983048">
         </jdbcConnection>
 
         <!-- 生成model类，targetPackage指定model类的包名， targetProject指定生成的model放在eclipse的哪个工程下面-->
-        <javaModelGenerator targetPackage="com.example.model" targetProject="E:\Springboot_test\spike\parent\spike_interface\src\main\java">
+        <javaModelGenerator targetPackage="com.example.model" targetProject="F:\spike\parent\spike_interface\src\main\java">
             <property name="enableSubPackages" value="false" />
             <property name="trimStrings" value="false" />
         </javaModelGenerator>
@@ -56,8 +56,8 @@
         </javaClientGenerator>
 
         <!-- 数据库表名及对应的Java模型类名 -->
-        <table tableName="admin_info"
-               domainObjectName="Admin"
+        <table tableName="miaosha_goods"
+               domainObjectName="MiaoshaGoods"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
