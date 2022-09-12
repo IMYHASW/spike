@@ -28,6 +28,7 @@
         <option value="CSS File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,6 +45,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -87,6 +89,9 @@
     "last_opened_file_path": "F:/实验课题/管理系统项目/fsmme-fshyx-hyx_2022-master",
     "list.type.of.created.stylesheet": "CSS",
     "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "E:/Springboot_test/spike/parent/spike_consumer/src/main/resources/templates",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "ruby.rails.projectView.checked": "true",
@@ -98,13 +103,18 @@
       "mysql"
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\spike\parent\spike_consumer\src\main\resources\templates\image" />
       <recent name="F:\spike\parent\spike_consumer\src\main\resources\templates" />
       <recent name="F:\spike\parent\spike_consumer\src\main\resources\templates\img" />
       <recent name="E:\Springboot_test\spike\parent\spike_provider\src\main\resources" />
+      <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\templates" />
+      <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\static" />
+      <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\static\" />
+      <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\static\images" />
+      <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\static\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\spike\parent\spike_consumer\src\main\resources\static.image\css" />
@@ -112,6 +122,9 @@
       <recent name="F:\spike\parent\spike_consumer\src\main\resources\static.image\image" />
       <recent name="F:\spike\parent\spike_consumer\src\main\resources\static.image" />
       <recent name="F:\spike\parent\spike_consumer\src\main\resources\static.image\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Springboot_test\spike\parent\spike_consumer\src\main\resources\static" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -121,6 +134,11 @@
       </list>
     </option>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -128,10 +146,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpikeProviderApplication">
+  <component name="RunManager" selected="Spring Boot.SpikeConsumerApplication">
     <configuration name="SpikeConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
       <module name="spike_consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumer.SpikeConsumerApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,6 +164,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpikeConsumerApplication" />
+      <item itemvalue="Spring Boot.SpikeProviderApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -171,6 +196,12 @@
       <workItem from="1662709322186" duration="12611000" />
       <workItem from="1662726464635" duration="12974000" />
       <workItem from="1662793372132" duration="7546000" />
+      <workItem from="1662627137433" duration="13294000" />
+      <workItem from="1662690555206" duration="10274000" />
+      <workItem from="1662710924156" duration="6307000" />
+      <workItem from="1662717981199" duration="8263000" />
+      <workItem from="1662733708807" duration="6019000" />
+      <workItem from="1662791976989" duration="8474000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1662543830879</created>
@@ -201,6 +232,28 @@
       <updated>1662793904492</updated>
     </task>
     <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00003" summary="test2">
+      <created>1662632733357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662632733373</updated>
+    </task>
+    <task id="LOCAL-00004" summary="andminlogin1">
+      <created>1662714300421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662714300421</updated>
+    </task>
+    <task id="LOCAL-00005" summary="管理员登录+商品管理2">
+      <created>1662806170456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662806170456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +276,7 @@
                     <value>
                       <list>
                         <option value="shouye" />
+                        <option value="wujialing" />
                       </list>
                     </value>
                   </entry>
@@ -243,6 +297,10 @@
     <MESSAGE value="test1" />
     <MESSAGE value="shouye" />
     <option name="LAST_COMMIT_MESSAGE" value="shouye" />
+    <MESSAGE value="test2" />
+    <MESSAGE value="andminlogin1" />
+    <MESSAGE value="管理员登录+商品管理2" />
+    <option name="LAST_COMMIT_MESSAGE" value="管理员登录+商品管理2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
