@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.provider.mapper.goodsMapper">
-  <resultMap id="BaseResultMap" type="com.example.model.goods">
+<mapper namespace="com.example.provider.mapper.GoodsMapper">
+  <resultMap id="BaseResultMap" type="com.example.model.Goods">
     <id column="id" jdbcType="BIGINT" property="id" />
     <result column="goods_name" jdbcType="VARCHAR" property="goodsName" />
     <result column="goods_title" jdbcType="VARCHAR" property="goodsTitle" />
@@ -10,7 +10,7 @@
     <result column="goods_stock" jdbcType="INTEGER" property="goodsStock" />
     <result column="goods_class" jdbcType="VARCHAR" property="goodsClass" />
   </resultMap>
-  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.example.model.goods">
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.example.model.Goods">
     <result column="goods_detail" jdbcType="LONGVARCHAR" property="goodsDetail" />
   </resultMap>
   <sql id="Base_Column_List">
@@ -35,7 +35,7 @@
     delete from goods
     where id = #{id,jdbcType=BIGINT}
   </delete>
-  <insert id="insert" parameterType="com.example.model.goods">
+  <insert id="insert" parameterType="com.example.model.Goods">
     insert into goods (id, goods_name, goods_title, 
       goods_img, goods_price, goods_stock, 
       goods_class, goods_detail)
@@ -43,7 +43,7 @@
       #{goodsImg,jdbcType=VARCHAR}, #{goodsPrice,jdbcType=DECIMAL}, #{goodsStock,jdbcType=INTEGER}, 
       #{goodsClass,jdbcType=VARCHAR}, #{goodsDetail,jdbcType=LONGVARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="com.example.model.goods">
+  <insert id="insertSelective" parameterType="com.example.model.Goods">
     insert into goods
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -98,7 +98,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.example.model.goods">
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.model.Goods">
     update goods
     <set>
       <if test="goodsName != null">
@@ -125,7 +125,7 @@
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.example.model.goods">
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.example.model.Goods">
     update goods
     set goods_name = #{goodsName,jdbcType=VARCHAR},
       goods_title = #{goodsTitle,jdbcType=VARCHAR},
@@ -136,7 +136,7 @@
       goods_detail = #{goodsDetail,jdbcType=LONGVARCHAR}
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.example.model.goods">
+  <update id="updateByPrimaryKey" parameterType="com.example.model.Goods">
     update goods
     set goods_name = #{goodsName,jdbcType=VARCHAR},
       goods_title = #{goodsTitle,jdbcType=VARCHAR},
