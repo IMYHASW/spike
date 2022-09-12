@@ -1,7 +1,12 @@
+/*将所有的距离，间距都设置为0*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
 body{
     font-family: 'Microsoft YaHei';
     color:#666;
-    font-size:12px;
+    font-size:24px;
 }
 /*顶部条状态*/
 .header_con{
@@ -14,7 +19,10 @@ body{
     height:29px;
     margin:0 auto;
 }
-
+/*图片距离*/
+.banner_img{
+    Margin-left :50px;
+}
 .welcome{
     font:12px/29px 'Microsoft YaHei UI';
     float: left;

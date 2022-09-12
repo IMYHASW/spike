@@ -1,6 +1,5 @@
 package com.example.consumer.web;
 
-import com.example.model.Detail;
 import com.example.model.MiaoshaGoods;
 import com.example.model.goods;
 import com.example.service.MiaoshaGoodsService;
@@ -24,7 +23,7 @@ public class MiaoshaGoodsController {
     @RequestMapping(value = "/domain")
     public String selectByPrimaryKey(Long id, Model model){
 
-        List<MiaoshaGoods> d = miaoshaGoodsService.selectByPrimaryKey(id);
+        List<MiaoshaGoods> d = miaoshaGoodsService.selectByID(id);
         model.addAttribute("domain",d);
         System.out.print(d);
 

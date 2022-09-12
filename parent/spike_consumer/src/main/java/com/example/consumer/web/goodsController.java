@@ -22,12 +22,4 @@ public class goodsController {
         return "homepage";
     }
 
-    @RequestMapping(value = "/detail")
-    public String selectByPrimaryKey(Long id,Model model){
-
-        List<goods> d = goodsservice.selectByPrimaryKey(id);
-        model.addAttribute("detail",d);
-        System.out.print(d);
-        return "detail";
-    }
 }
